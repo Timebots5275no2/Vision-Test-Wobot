@@ -69,7 +69,9 @@ public class Drivetrain extends SubsystemBase {
     }
 
     public void center() {
-        center.centerDrive();
+        if(center.centerDrive()){
+            center.autoMove();
+        }
         System.out.print("it wirkjed");
     }
 
