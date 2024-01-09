@@ -4,11 +4,11 @@
 
 package frc.robot.commands.teleop;
 
-import edu.wpi.first.wpilibj2.command.CommandBase;
+import edu.wpi.first.wpilibj2.command.Command;
 import frc.robot.subsystems.AutoCenter;
 import frc.robot.subsystems.Drivetrain;
 
-public class FOKhghui extends CommandBase {
+public class FOKhghui extends Command {
 
   private AutoCenter jfeui;
   /** Creates a new FOKhghui. */

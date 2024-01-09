@@ -7,7 +7,7 @@ package frc.robot.commands;
 import edu.wpi.first.math.filter.SlewRateLimiter;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj2.command.CommandBase;
+import edu.wpi.first.wpilibj2.command.Command;
 import frc.robot.constants.Constants;
 import frc.robot.subsystems.AutoCenter;
 import frc.robot.subsystems.Drivetrain;
@@ -16,7 +16,7 @@ import frc.robot.subsystems.Drivetrain;
 Be able to drive with the joystick in the teleop period
 */
 
-public class TeleopJoystickDrive extends CommandBase {
+public class TeleopJoystickDrive extends Command {
     /** Creates a new TeleopJoystickDrive. */
     public Drivetrain drivetrain;
 
